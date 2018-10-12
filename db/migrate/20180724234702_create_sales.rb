@@ -7,7 +7,7 @@ class CreateSales < ActiveRecord::Migration[5.2]
       t.integer :value
       t.integer :discount
       t.integer :tax
-      t.floa :total
+      t.float :total
 
       t.timestamps
     end
